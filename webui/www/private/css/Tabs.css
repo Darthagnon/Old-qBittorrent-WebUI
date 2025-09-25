@@ -18,51 +18,63 @@ Required by:
 /* Toolbar Tabs */
 
 .toolbarTabs {
+    background: url("../images/tabs.gif") repeat-x;
+    background-position: left -70px;
     overflow: visible;
-    user-select: none;
+    padding: 0 5px 2px 2px;
 }
 
 .tab-menu {
     display: flex;
     font-size: 11px;
+    line-height: 16px;
     list-style-type: none;
     overflow-x: auto;
+    margin: 0;
     padding: 0;
 }
 
-.tab-menu li {
+.tab-menu li:not(.selected) {
+/*.tab-menu li {*/
+    background: url("../images/tabs.gif") repeat-x;
+    background-position: left -35px;
     cursor: pointer;
-    flex: 0 0 auto;
     float: left;
+    margin: 0 0 5px;
 }
 
-.tab-menu .selected img,
+/*.tab-menu .selected img,
 .tab-menu li:hover img {
-    filter: var(--color-icon-hover);
-}
+    background: url("../images/tabs.gif") repeat-x;
+    background-position: left 0px;
+}*/
 
 .tab-menu li a {
-    align-items: center;
-    background-color: var(--color-background-default);
-    border-radius: 3px 3px 0 0;
-    color: var(--color-text-default);
-    display: flex;
-    gap: 5px;
-    margin-left: 6px;
-    padding: 5px 7px 3px;
+    background: url("../images/tabs.gif") repeat-x;
+    background-position: right -35px;
+    color: #181818;
+    display: block;
+    font-weight: normal;
+    margin-left: 8px;
+    padding: 6px 15px 5px 9px;
     text-align: center;
+
 }
 
 .tab-menu li:first-child a {
     margin-left: 4px;
 }
 
-.tab-menu li:hover a {
-    background-color: var(--color-background-hover);
+.tab-menu li:hover a img {
+    background: none;
     color: var(--color-text-white);
 }
 
+/* TODO */
 .tab-menu li.selected a {
-    background-color: var(--color-background-blue);
-    color: var(--color-text-white);
+    background: url("../images/tabs.gif") right 0px repeat-x;
+    background: url("../images/tabs.gif") left -0px repeat-x;
+    background-width: 200px auto;
+    color: var(--color-text-default);
+    font-weight: bold;
 }

@@ -4,8 +4,13 @@
     v 0.4
 
 **************************************************************/
+
+.dynamicTable tbody tr {
+    background-color: var(--color-text-white);
+}
+
 .altRowColors tbody tr:nth-child(odd of :not(.invisible)) {
-    background-color: var(--color-background-default);
+    background-color: var(--color-foreground-default);
 }
 
 #transferList .dynamicTable td {
@@ -97,8 +102,9 @@
 }
 
 .dynamicTable th {
-    border-right: 1px solid var(--color-border-default);
-    padding: 4px 2px;
+    background-color: var(--color-altRowColors);
+    border-right: 1px solid var(--color-border-default5);
+    padding: 4px;
     white-space: nowrap;
 }
 
@@ -111,8 +117,11 @@
 }
 
 .dynamicTable td {
-    padding: 4px 2px;
+    padding: 0px 4px;
     white-space: nowrap;
+}
+.dynamicTable thead tr {
+    background-color: #eee;
 }
 
 .dynamicTable th,
@@ -124,9 +133,9 @@
 
 .dynamicTable th.sorted {
     background-image: url("../images/go-up.svg");
-    background-position: right 3px center;
+    background-position: right;
     background-repeat: no-repeat;
-    background-size: 12px;
+    background-size: 15px;
 }
 
 .dynamicTable th.sorted.reverse {
@@ -161,10 +170,10 @@ div:has(> div.dynamicTableFixedHeaderDiv):not(.invisible) {
 }
 
 .dynamicTableDiv thead th {
-    height: 0 !important;
-    line-height: 0 !important;
-    padding-bottom: 0 !important;
-    padding-top: 0 !important;
+    height: 0px !important;
+    line-height: 0px !important;
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
 }
 
 /* Trackers table */
