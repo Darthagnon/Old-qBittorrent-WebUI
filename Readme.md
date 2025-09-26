@@ -21,5 +21,8 @@ Tested on [QBittorrent Enhanced Edition v4.6.7.10](https://github.com/c0re100/qB
 - [Vorapis V3 for YouTube](https://vorapis.pages.dev/#/), a skin for YouTube
 - [Geckium](https://github.com/angelbruni/Geckium), a Chrome theme for Firefox
 - [Github theme for Gitea](https://codeberg.org/Darthagnon/gitea-github-theme), a skin for Gitea that makes it look like old Github
+- [github-custom-global-navigation](https://github.com/blakegearin/github-custom-global-navigation), a working (Sept 2025) userscript that make Github great again
+	- [Old School Github](https://chromewebstore.google.com/detail/old-school-github/blkkkhifjoiedclojflfcenbjigdajeb) ([Github](https://github.com/daattali/oldschool-github-extension)), a (non-functional) skin for Github that reverted it back to before the 23 June 2020 redesign
+	- [Good Github](https://github.com/clifford269/Good-Github), an Aero skin for Github
 - [Explorer7](https://winclassic.net/thread/2588/explorer7-windows-explorer-10-11) ([Github](https://github.com/world-windows-federation/explorer7)), Windows 7's glossy explorer for Windows 10
 - [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher), Windows 10's start menu for Windows 11
